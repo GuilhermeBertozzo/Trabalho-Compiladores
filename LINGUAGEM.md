@@ -274,14 +274,3 @@ Códigos de saída:
 O texto da `<mensagem livre>` é de vocês. O verificador confere a fase, a
 linha e a coluna — não o texto. Mas escreva mensagens boas: parte da nota
 da apresentação é mostrar o compilador errando com elegância.
-
----
-
-## 7. O que **não** existe na MPL
-
-Para não restar dúvida sobre o escopo: não há vetores, `para`, `pare`,
-`leia`, registros, ponteiros, classes, importação de arquivo, sobrecarga,
-parâmetro por referência nem variável global.
-
-Vários desses são bônus previstos na apresentação. Nenhum deles é cobrado
-nas entregas.

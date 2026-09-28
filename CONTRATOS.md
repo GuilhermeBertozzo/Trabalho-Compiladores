@@ -286,21 +286,3 @@ conforme a fase, e a razão é simples: em algumas fases a posição do erro é
 | `sintatico` | fase, linha **e coluna** | o **token que apareceu** no lugar do esperado |
 | `semantico` | fase e linha | — |
 | `execucao` | fase e linha | — |
-
-Nas duas primeiras fases a posição é objetiva, então ela é cobrada. Nas duas
-últimas não é: em `inteiro x = "texto";` dá para apontar a declaração ou o
-literal, e as duas escolhas são razoáveis — cobrar a minha seria cobrar
-gosto, não correção. Por isso ali vale a linha. Os programas do corpus são
-escritos com um comando por linha, para que a linha nunca seja ambígua.
-
-Duas convenções que valem a pena escrever, porque quase todo mundo tropeça:
-
-- A coluna do primeiro caractere de uma linha é **1**, não 0. Errar por um é
-  o defeito mais comum desta disciplina.
-- O erro sintático fica no token **errado**, não no fim do token anterior.
-  Faltando o `;` no fim da linha 2, o erro é relatado no primeiro token da
-  linha 3 — que é onde o parser percebeu o problema.
-- O `FIM_ARQUIVO` fica na linha seguinte à última e na coluna 1 quando o
-  arquivo termina com quebra de linha; se não terminar, fica logo depois do
-  último caractere.
-- O erro de execução é relatado na linha do **comando** que estava rodando.

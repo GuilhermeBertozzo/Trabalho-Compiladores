@@ -129,15 +129,3 @@ mesmas regras, programas diferentes. Um compilador de verdade passa nos dois
 sem que vocês precisem fazer nada; um programa que apenas reproduza as saídas
 esperadas deste corpus passa aqui e reprova lá. Estou dizendo isto abertamente
 para ninguém perder tempo pelo caminho errado.
-
----
-
-## Como entregar
-
-1. `git push` no repositório do grupo.
-2. Abram a [página do trabalho](https://profluiz.mantovanitec.com/disciplinas/aulas/compiladores/trabalho.html).
-3. No formulário do fim da página: escolham a entrega, identifiquem os
-   integrantes (nome, RA e e-mail), colem a URL do repositório e anexem o
-   `evidencias/verificacao-N.txt`.
-4. Cada integrante recebe uma cópia por e-mail. **Guardem esse e-mail**: é o
-   comprovante.

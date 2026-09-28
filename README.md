@@ -254,13 +254,3 @@ repositório do grupo e anexe evidencias/verificacao-N.txt. Faça o push antes.
 Os slides devem ser renomeados para apresentacao-grupo-NN.pdf e enviados
 até 23h59 do dia anterior à apresentação. As datas por turma constam nos
 arquivos originais de entregas/.
-
-## Créditos e preparação
-
-Base: [laboratório do professor](https://github.com/LuizRMSilva1973/compiladores-lab),
-revisão 6af1f415596fabda3d21fd226aae7145a5c71bc0.
-Esta implementação e os materiais de estudo foram preparados com assistência
-de IA. O grupo deve revisar o código, compreender as decisões e praticar
-as modificações antes da defesa. A identificação dos integrantes será
-complementada com os dados reais, sem atribuir experiências ou autoria pessoal
-que não foram informadas.
